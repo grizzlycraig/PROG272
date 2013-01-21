@@ -43,9 +43,22 @@ var app = {
 
         listeningElement.setAttribute('style', 'display:none;');
         receivedElement.setAttribute('style', 'display:block;');
-		document.getElementById("platform").innerHTML = 'The platform is: ' + device.platform + ' now.';
+		document.getElementById("platform").innerHTML = device.platform;
         document.getElementById("version").innerHTML = device.version;
+        document.getElementById("uuid").innerHTML = device.uuid;
+        document.getElementById("cordova").innerHTML = device.uuid;
+        document.getElementById("name").innerHTML = device.name;
         
+ 		document.getElementById("screenwidth").innerHTML = screen.width;
+ 		//$("#screenwidth").html(screen.width);
+ 		
+ 		document.getElementById("screenheight").innerHTML = screen.height;
+ 		//$("#screenheight").html(screen.height);
+ 		
+ 		document.getElementById("screencolorDepth").innerHTML = screen.colorDepth;
+ 		//$("#screencolorDepth").html(screen.colorDepth);
+ 		
+ 
         console.log('Received Event: ' + id);
     }
 };
