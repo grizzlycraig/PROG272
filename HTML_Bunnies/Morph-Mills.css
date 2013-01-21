@@ -1,0 +1,63 @@
+
+
+body {
+	color: orchid;
+	background-color: yellow;
+}
+
+footer {
+	font-style: italic;
+	font-size: 0.75em;
+}
+
+li {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	font-size: 2em;
+}
+
+body  {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	font-size: 1em;
+}
+
+h1 {
+	font-family: "Arial", Arial, serif;
+	font-style: italic;
+	color: purple;
+	font-size: 3.5em;
+}
+
+h2 {
+	font-family: "Garamond", Georgia, serif;
+	color: maroon;
+	font-size: 2.75em;
+}
+
+h3 {
+	font-weight: bold;
+	font-style: italic;
+	font-size: 1.50em;
+}
+
+p  {
+	font-family: "Times New Roman", Times, serif;
+	color: black;
+	font-size: 1em;
+} 
+
+a {
+	font-family: "Arial", Arial, serif;
+	color: orchid;
+	font-size: 1.25em;
+}
+
+.caption {
+	font-family: Times New Roman", Times, serif;
+	/* color: #E8CA06;  */
+	color:  #FF0099;
+	
+	font-style: italic;
+	font-size: 1.66em;
+}
